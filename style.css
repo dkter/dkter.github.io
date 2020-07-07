@@ -33,6 +33,13 @@ hr {
     border: 5px solid #aaa;
     margin: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc img {
+    margin-bottom: 16px;
 }
 
 .project h3 {
