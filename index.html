@@ -50,8 +50,8 @@
                 <a href="https://github.com/BluCodeGH/TrafficZipper/">&gt; https://github.com/BluCodeGH/TrafficZipper</a>
             </div>
             <div class="project">
-                <h3>html-witchcraft</h3>
                 <div class="desc">
+                    <h3>html-witchcraft</h3>
                     <p>
                         not your typical python HTML generator
                     </p>
@@ -65,7 +65,9 @@ class ExamplePage(Page):
                     [title] ("My Cool Website") [-title]
                 [-head]
                 [body]
-                    [marquee][h1] ("Wheeeeeeeeee") [-h1][-marquee]
+                    [marquee]
+                        [h1] ("Wheeeeeeeeee") [-h1]
+                    [-marquee]
                 [-body]
             [-html]
         ]
