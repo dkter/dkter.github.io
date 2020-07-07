@@ -29,6 +29,23 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 1200px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .projects {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 .project {
     border: 5px solid #aaa;
     margin: 10px;
