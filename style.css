@@ -114,7 +114,6 @@ a, a:visited {
 
 .computer {
     margin-top: 500px;
-    mix-blend-mode: hard-light;
     font-size: 14px;
     opacity: 0.3;
 }
@@ -126,7 +125,7 @@ a, a:visited {
     top: 0px;
     height: 100%;
     width: 100%;
-    background: linear-gradient(transparent, grey);
+    background: linear-gradient(transparent, #090909);
     pointer-events: none;
 }
 
