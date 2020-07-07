@@ -49,6 +49,16 @@ hr {
     margin-top: 16px;
 }
 
+blockquote footer {
+    text-align: right;
+    color: #aaa;
+}
+
+pre {
+    background: #000;
+    padding: 2px;
+}
+
 a, a:visited {
     color: #8e44ad;
     text-decoration: none;
