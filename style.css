@@ -46,6 +46,18 @@ hr {
     }
 }
 
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
 .project {
     border: 5px solid #aaa;
     margin: 10px;
