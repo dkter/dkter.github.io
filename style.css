@@ -65,6 +65,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 0;
 }
 
 .desc img {
@@ -93,6 +94,7 @@ blockquote footer {
 pre {
     background: #000;
     padding: 2px;
+    overflow: auto;
 }
 
 a, a:visited {
