@@ -1,7 +1,7 @@
 @import url("iosevka/iosevka.css");
 
 html, body {
-    font-family: Iosevka, monospace;
+    font-family: "Iosevka Web", monospace;
     background: #090909;
     color: #ffffff;
 }
