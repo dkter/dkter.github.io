@@ -102,6 +102,11 @@ a, a:visited {
     text-decoration: none;
 }
 
+a.stealth, a.stealth:visited {
+    color: #ffffff;
+    text-decoration: underline dotted;
+}
+
 .more-link {
     width: calc(100% - 20px);
     text-align: right;
