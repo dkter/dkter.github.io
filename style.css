@@ -136,6 +136,7 @@ a.stealth, a.stealth:visited {
 
 .advanced-mode {
     text-align: right;
+    float: right;
 }
 
 .advanced-mode a, .advanced-mode a:visited {
