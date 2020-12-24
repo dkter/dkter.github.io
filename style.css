@@ -134,6 +134,26 @@ a.stealth, a.stealth:visited {
     pointer-events: none;
 }
 
+.svg-wrapper {
+    position: relative;
+}
+
+.svg {
+    font-size: 14px;
+    opacity: 0.3;
+}
+
+.svg::after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#090909, transparent);
+    pointer-events: none;
+}
+
 .advanced-mode {
     text-align: right;
     float: right;
