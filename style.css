@@ -113,6 +113,16 @@ a.stealth, a.stealth:visited {
     margin: 10px;
 }
 
+ul.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.contact-list li {
+    margin: 10px 0;
+}
+
 .computer-wrapper {
     position: relative;
 }
