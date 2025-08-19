@@ -1,4 +1,5 @@
 @import ../../../fonts/libertinus/libertinus.css;
+@import ../../../fonts/InputSansNarrow/InputSansNarrow.css;
 
 .spacing {
     height:  20vh;
@@ -47,6 +48,8 @@ hr {
 
 code, pre {
     background: #E4E0F5;
+    font-size: 16px;
+    font-family: "Input Sans Narrow", monospace;
 }
 
 pre {

@@ -1,0 +1,32 @@
+@font-face
+{
+    font-family: Input Sans Narrow;
+    font-style:  normal;
+    font-weight: 400;
+    src: local(Input Sans Narrow), 
+        url("InputSansNarrow-Regular.ttf") format("truetype"), 
+}
+@font-face
+{
+    font-family: Input Sans Narrow;
+    font-style:  italic;
+    font-weight: 400;
+    src: local(Input Sans Narrow), 
+        url("InputSansNarrow-Italic.ttf") format("truetype"), 
+}
+@font-face
+{
+    font-family: Input Sans Narrow;
+    font-style:  normal;
+    font-weight: 600;
+    src: local(Input Sans Narrow), 
+        url("InputSansNarrow-Bold.ttf") format("truetype"), 
+}
+@font-face
+{
+    font-family: Input Sans Narrow;
+    font-style:  italic;
+    font-weight: 600;
+    src: local(Input Sans Narrow), 
+        url("InputSansNarrow-BoldItalic.ttf") format("truetype"), 
+}
